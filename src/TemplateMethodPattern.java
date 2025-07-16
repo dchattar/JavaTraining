@@ -80,13 +80,6 @@ public class TemplateMethodPattern {
 }
 
 
-interface Printer {
-    void print();
-    default void printMessage() {
-        System.out.println("Printing from Printer interface");
-    }
-}
-
 
 interface A {
     int a = 5;
