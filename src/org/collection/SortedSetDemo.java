@@ -28,7 +28,7 @@ class SortedSetDemo {
         // Create a TreeSet to store Employee objects
         java.util.SortedSet<Officer> officers = new java.util.TreeSet<>();
 
-        // Adding employees to the SortedSet
+      // Adding employees to the SortedSet
         officers.add(new Officer("Bob", "30", 50000));
         officers.add(new Officer("Alice", "28", 60000));
         officers.add(new Officer("David", "35", 70000));
@@ -41,13 +41,4 @@ class SortedSetDemo {
         }
     }
 }
-
-//tell me more about a TreeSet
-// A TreeSet is a part of the Java Collections Framework and implements the Set interface.
-// It is a collection that stores elements in a sorted order, based on their natural ordering or a specified comparator.
-// Here are some key features of a TreeSet:
-// 1. **Sorted Order**: Elements in a TreeSet are stored in a sorted order, which means that when you iterate over the elements, they will be returned in ascending order.
-// 2. **No Duplicates**: A TreeSet does not allow duplicate elements. If you try to add an element that is already present, it will not be added again.
-/
-
 

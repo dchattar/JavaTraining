@@ -1,7 +1,7 @@
 package org.collection;
 
 
-class Employee {
+class Employee implements Comparable{
     String name;
     String age;
     int salary;
@@ -31,5 +31,14 @@ class Employee {
     @Override
     public int hashCode() {
         return name.hashCode();
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        if (!(o instanceof Employee other)) {
+            throw new ClassCastException("Invalid object for comparison");
+        }
+
+        return Integer.compare(Integer.parseInt(this.age), Integer.parseInt(other.age));
     }
 }
