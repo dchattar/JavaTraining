@@ -27,9 +27,6 @@ public class ArraylistDemo1 {
     //In C, common data structures include arrays, linked lists, stacks, queues, trees, and hash tables.
 
 
-
-
-
     public static void main(String[] args) {
         // Example usage of ArrayList
         ArrayList<Employee> empList = new ArrayList<>();
