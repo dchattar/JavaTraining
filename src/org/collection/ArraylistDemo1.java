@@ -66,7 +66,5 @@ public class ArraylistDemo1 {
         System.out.println("Employees TreeSet:"+treeSet);
 
 
-        //create an array of integers
-        int [] arr = new int[10];
     }
 }
