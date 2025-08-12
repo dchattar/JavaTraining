@@ -1,7 +1,7 @@
 package org.collection;
 
 
-class Employee implements Comparable{
+public class Employee implements Comparable{
     String name;
     String age;
     int salary;

@@ -59,7 +59,7 @@ public class StudentResultProcessor {
 
         // Create mock students
         for (int i = 1; i <= 100; i++) {
-            studentList.add(new Student(i, "Student" + i, new Random().nextInt(101)));
+            studentList.add(new Student(i, "Student" + i, new int[]{(int)(Math.random() * 100), (int)(Math.random() * 100), (int)(Math.random() * 100)}));
         }
 
         // Create thread pool with 5 threads

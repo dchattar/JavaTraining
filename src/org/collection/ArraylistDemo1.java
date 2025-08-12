@@ -64,7 +64,5 @@ public class ArraylistDemo1 {
         //and to check for duplicates.
 
         System.out.println("Employees TreeSet:"+treeSet);
-
-
     }
 }
