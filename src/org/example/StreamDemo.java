@@ -34,6 +34,7 @@ public class StreamDemo {
         // collect results into a List
         System.out.println("First element in the list : " + str.orElse("No match found"));
 
+
         //simple example of reduce
         List<String> names = Arrays.asList("Alice", "Bob", "Charlie");
         String concatenatedNames = names.stream()
